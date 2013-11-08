@@ -48,7 +48,7 @@ NSString * const NXOAuth2ClientConnectionContextTokenRefresh = @"tokenRefresh";
                      authorizeURL:anAuthorizeURL
                          tokenURL:aTokenURL
                       accessToken:nil
-                       persistent:YES
+                       persistent:NO
                          delegate:aDelegate];
 }
 
